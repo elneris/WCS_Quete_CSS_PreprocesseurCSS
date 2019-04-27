@@ -1,0 +1,108 @@
+@font-face
+{
+  font-family: 'Aniron';
+  src: url('aniron.ttf') format('truetype');
+}
+
+@mixin static
+{
+  background-color: #ff4c00;
+  font-family: 'Aniron';
+  font-size: 15px;
+  color: white;
+}
+
+@mixin div
+{
+  margin-top: 11%;
+}
+
+@mixin ring
+{
+  border-radius: 50%;
+  background: none;
+}
+
+body{
+  background-image: url('bg_light.png');
+  font-family: 'Aniron';
+  color: white;
+  .navbar
+  {
+    @include static;
+    a{
+      color:white;
+    }
+  }
+
+  footer
+  {
+    @include static;
+    ul
+    {
+      list-style: none;
+      li
+      {
+        margin-top: 3%;
+      }
+    }
+    a
+    {
+      color: white;
+    }
+  }
+  .first, .second
+  {
+    @include div;
+  }
+  .third
+  {
+    @include div;
+    margin-bottom: 11%;
+  }
+  h1
+  {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .orange_ring
+  {
+    @include ring;
+    width: 70px;
+    height: 70px;
+    border-color: #ff4c00;
+    box-shadow: 2px 2px 2px #ff4c00;
+  }
+  .golden_ring
+  {
+    @include ring;
+    width: 150px;
+    height: 150px;
+    border-color: gold;
+    box-shadow: 2px 2px 2px gold;
+  }
+  @mixin rings($from: 1, $to: 6) {
+    @for $i from $from through $to {
+      .ring#{$i} {
+        margin-left: -(10px*$i);
+        display: inline-block;
+        width: 30px*$i;
+        height: 30px*$i;
+        border-width: 2px*$i;
+        border-style: groove;
+        border-radius: 50%;
+        border-color: grey;
+        box-shadow: 1px*$i 1px*$i 1px*$i grey;
+        background: transparent;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+  @include rings(1, 6);
+  div
+  {
+    font-family: 'Aniron';
+  }
+}
+

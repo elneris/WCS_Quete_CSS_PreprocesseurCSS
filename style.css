@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Aniron";
+    src: url("aniron.ttf") format("truetype");
+}
+body {
+    background-image: url("bg_light.png");
+    font-family: "Aniron";
+    color: white;
+}
+body .navbar {
+    background-color: #ff4c00;
+    font-family: "Aniron";
+    font-size: 15px;
+    color: white;
+}
+body .navbar a {
+    color: white;
+}
+body footer {
+    background-color: #ff4c00;
+    font-family: "Aniron";
+    font-size: 15px;
+    color: white;
+}
+body footer ul {
+    list-style: none;
+}
+body footer ul li {
+    margin-top: 3%;
+}
+body footer a {
+    color: white;
+}
+body .first, body .second {
+    margin-top: 11%;
+}
+body .third {
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+body h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body .orange_ring {
+    border-width: thick;
+    border-style: groove;
+    border-radius: 50%;
+    background: none;
+    width: 70px;
+    height: 70px;
+    border-color: #ff4c00;
+    box-shadow: 2px 2px 2px #ff4c00;
+}
+body .golden_ring {
+    border-width: thick;
+    border-style: groove;
+    border-radius: 50%;
+    background: none;
+    width: 150px;
+    height: 150px;
+    border-color: gold;
+    box-shadow: 2px 2px 2px gold;
+}
+body .ring1 {
+    margin-left: -10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: grey;
+    box-shadow: 1px 1px 1px grey;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body .ring2 {
+    margin-left: -20px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-width: 4px;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: grey;
+    box-shadow: 2px 2px 2px grey;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body .ring3 {
+    margin-left: -30px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-width: 6px;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: grey;
+    box-shadow: 3px 3px 3px grey;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body .ring4 {
+    margin-left: -40px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-width: 8px;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: grey;
+    box-shadow: 4px 4px 4px grey;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body .ring5 {
+    margin-left: -50px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: grey;
+    box-shadow: 5px 5px 5px grey;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body .ring6 {
+    margin-left: -60px;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-width: 12px;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: grey;
+    box-shadow: 6px 6px 6px grey;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body div {
+    font-family: "Aniron";
+}
