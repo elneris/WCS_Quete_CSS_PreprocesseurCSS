@@ -1,5 +1,7 @@
 # Preprocesseur-CSS
 
+## Quete réalisée lors de mon cursus à la WildCodeSchool Février 2019
+
 Afin de donner plus de style au site findThePrecious, Sauron veut être en mesure d'ajouter des anneaux sur ses pages. Plein d'anneaux, des grands, des petits, avec plein de couleurs différentes !
 Tu devras donc, à l'aide de SCSS, créer une mixin appelée ring qui permet de dessiner un anneau.
 
